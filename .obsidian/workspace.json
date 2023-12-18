@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/Teams Integration.md",
+                "file": "Wazuh/Discord Integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Teams Integration.md",
+                "file": "Wazuh/Discord Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Teams Integration.md",
+                "file": "Wazuh/Discord Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Teams Integration.md"
+                "file": "Wazuh/Discord Integration.md"
               }
             }
           },
@@ -191,8 +191,9 @@
   },
   "active": "27a9bceedb67ff51",
   "lastOpenFiles": [
-    "Wazuh/custom-teams.py.md",
     "Wazuh/Teams Integration.md",
+    "Wazuh/Discord Integration.md",
+    "Wazuh/custom-teams.py.md",
     "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
     "README.md",
@@ -229,7 +230,6 @@
     "Ponto Frio/Untitled.md",
     "Pergunta",
     "Attachments/Pasted image 20230511103528.png",
-    "nota rapida.md",
     "LAB",
     "Attachments/Torch_Gif.gif",
     "Attachments/Screenshot_20221218_014542.png",

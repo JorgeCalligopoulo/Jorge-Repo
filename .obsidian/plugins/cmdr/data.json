@@ -11,6 +11,13 @@
       "name": "Obsidian Git: Push",
       "mode": "any",
       "color": "#514fcf"
+    },
+    {
+      "id": "obsidian-git:commit",
+      "icon": "save",
+      "name": "Obsidian Git: Commit all changes",
+      "mode": "any",
+      "color": "#3c66c8"
     }
   ],
   "rightRibbon": [],

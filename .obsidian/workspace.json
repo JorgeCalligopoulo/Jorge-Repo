@@ -19,9 +19,11 @@
             "id": "27a9bceedb67ff51",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "markdown",
               "state": {
-                "file": "Wazuh/custom-teams.py"
+                "file": "Wazuh/Teams Integration.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/custom-teams.py",
+                "file": "Wazuh/Teams Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/custom-teams.py",
+                "file": "Wazuh/Teams Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/custom-teams.py"
+                "file": "Wazuh/Teams Integration.md"
               }
             }
           },
@@ -198,10 +200,10 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "27a9bceedb67ff51",
+  "active": "1c3d11d5fbfa7728",
   "lastOpenFiles": [
-    "Wazuh/Teams Integration.md",
     "Wazuh/custom-teams.py",
+    "Wazuh/Teams Integration.md",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.ts",
     "Wazuh/custom-teams",

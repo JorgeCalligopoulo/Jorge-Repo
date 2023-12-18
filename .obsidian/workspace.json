@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Teams Integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Teams Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Teams Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OPNsense/Oracle cloud.md"
+                "file": "Wazuh/Teams Integration.md"
               }
             }
           },
@@ -189,10 +189,12 @@
       "cmdr:Obsidian Git: Push": false
     }
   },
-  "active": "1c3d11d5fbfa7728",
+  "active": "27a9bceedb67ff51",
   "lastOpenFiles": [
-    "README.md",
+    "Wazuh/Wazuh.md",
+    "Wazuh/Teams Integration.md",
     "OPNsense/Oracle cloud.md",
+    "README.md",
     "Proxmox",
     "OPNsense",
     "Misp",
@@ -229,8 +231,6 @@
     "nota rapida.md",
     "Meu RPG/Madness/madness.md",
     "LAB",
-    "Meu RPG/Madness/Long-Term Madness.md",
-    "Meu RPG/Madness/Short-Term Madness.md",
     "Attachments/Torch_Gif.gif",
     "Attachments/Screenshot_20221218_014542.png",
     "Attachments/Screenshot_20221210_212242.png",

@@ -21,14 +21,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/Discord Integration.md",
+                "file": "Wazuh/Teams Integration.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ec98bccdfe44328d",
+            "type": "leaf",
+            "state": {
+              "type": "code-editor",
+              "state": {
+                "file": "Wazuh/custom-teams.py"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Discord Integration.md",
+                "file": "Wazuh/custom-teams.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Discord Integration.md",
+                "file": "Wazuh/custom-teams.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Discord Integration.md"
+                "file": "Wazuh/custom-teams.py"
               }
             }
           },
@@ -186,15 +196,19 @@
       "meld-encrypt:Create new encrypted note": false,
       "cmdr:Obsidian Git: Pull": false,
       "cmdr:Obsidian Git: Commit all changes": false,
-      "cmdr:Obsidian Git: Push": false
+      "cmdr:Obsidian Git: Push": false,
+      "code-files:Create Code File": false
     }
   },
-  "active": "27a9bceedb67ff51",
+  "active": "ec98bccdfe44328d",
   "lastOpenFiles": [
     "Wazuh/Teams Integration.md",
+    "Wazuh/custom-teams.ts",
+    "Wazuh/custom-teams",
+    "Wazuh/custom-teams.py",
     "Wazuh/Discord Integration.md",
-    "Attachments",
     "Wazuh/custom-teams.py.md",
+    "Attachments",
     "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
     "README.md",
@@ -211,7 +225,6 @@
     "Sonhos.md",
     "Untitled.md",
     "Pergunta/Pergunta.md",
-    "Linux",
     "Pergunta/Distribuição de poisson.md",
     "Pergunta/Distribuição de Poisson.md",
     "LAB/Untitled.canvas",
@@ -225,10 +238,7 @@
     "RPG Sanches/Status Iniciais.md",
     "notas jogo.md",
     "Pergunta/Untitled.canvas",
-    "LAB/Untitled.md",
-    "Untitled 20230313 111115.encrypted",
     "Attachments/Pasted image 20230520224539.png",
-    "Pergunta",
     "Attachments/Pasted image 20230511103528.png",
     "Attachments/Torch_Gif.gif",
     "Attachments/Screenshot_20221218_014542.png",

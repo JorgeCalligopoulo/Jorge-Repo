@@ -184,11 +184,12 @@
       "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "meld-encrypt:Create new encrypted note": false,
+      "cmdr:Obsidian Git: Pull": false,
       "cmdr:Obsidian Git: Commit all changes": false,
       "cmdr:Obsidian Git: Push": false
     }
   },
-  "active": "27a9bceedb67ff51",
+  "active": "1c3d11d5fbfa7728",
   "lastOpenFiles": [
     "README.md",
     "OPNsense/Oracle cloud.md",

@@ -18,6 +18,13 @@
       "name": "Obsidian Git: Commit all changes",
       "mode": "any",
       "color": "#3c66c8"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "download-cloud",
+      "name": "Obsidian Git: Pull",
+      "mode": "any",
+      "color": "#4665e2"
     }
   ],
   "rightRibbon": [],

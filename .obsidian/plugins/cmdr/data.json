@@ -7,7 +7,7 @@
   "leftRibbon": [
     {
       "id": "obsidian-git:push2",
-      "icon": "arrow-big-up",
+      "icon": "upload-cloud",
       "name": "Obsidian Git: Push",
       "mode": "any",
       "color": "#514fcf"

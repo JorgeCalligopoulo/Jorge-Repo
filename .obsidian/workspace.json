@@ -191,8 +191,9 @@
   },
   "active": "27a9bceedb67ff51",
   "lastOpenFiles": [
-    "Wazuh/Wazuh.md",
+    "Wazuh/custom-teams.py.md",
     "Wazuh/Teams Integration.md",
+    "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
     "README.md",
     "Proxmox",
@@ -229,7 +230,6 @@
     "Pergunta",
     "Attachments/Pasted image 20230511103528.png",
     "nota rapida.md",
-    "Meu RPG/Madness/madness.md",
     "LAB",
     "Attachments/Torch_Gif.gif",
     "Attachments/Screenshot_20221218_014542.png",

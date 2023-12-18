@@ -1,5 +1,4 @@
 
-path: /var/ossec/integrations
 
 global configuration api call
 
@@ -19,7 +18,7 @@ global configuration api call
 ```
 
 
-custom-teams
+/var/ossec/integrations/custom-teams
 ```
 #!/bin/sh
 # Copyright (C) 2015-2020, Wazuh Inc.
@@ -53,7 +52,7 @@ esac
 ${WAZUH_PATH}/${WPYTHON_BIN} ${PYTHON_SCRIPT} "$@"
 ```
 
-custom-teams.py
+/var/ossec/integrations/custom-teams.py
 ``` python
 #!/usr/bin/env js
 # Created by Shuffle, AS. <frikky@shuffler.io>.

@@ -17,4 +17,4 @@ global configuration api call
 
 ```
 
-copy both custom-team and custom-teams.py to /var/ossec/integrations/
+copy both custom-teams and custom-teams.py to /var/ossec/integrations/

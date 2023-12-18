@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "OPNsense/Oracle cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "OPNsense/Oracle cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "OPNsense/Oracle cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "OPNsense/Oracle cloud.md"
               }
             }
           },
@@ -188,8 +188,10 @@
       "cmdr:Obsidian Git: Push": false
     }
   },
-  "active": "1c3d11d5fbfa7728",
+  "active": "27a9bceedb67ff51",
   "lastOpenFiles": [
+    "README.md",
+    "OPNsense/Oracle cloud.md",
     "Proxmox",
     "OPNsense",
     "Misp",
@@ -228,8 +230,6 @@
     "LAB",
     "Meu RPG/Madness/Long-Term Madness.md",
     "Meu RPG/Madness/Short-Term Madness.md",
-    "Meu RPG/Madness/indefinitive madnes.md",
-    "Attachments/u4dXOZyUBO7m8heu_transcoded-FaYbOJXcvx_PHRdd-Email Setup Link.mp4",
     "Attachments/Torch_Gif.gif",
     "Attachments/Screenshot_20221218_014542.png",
     "Attachments/Screenshot_20221210_212242.png",

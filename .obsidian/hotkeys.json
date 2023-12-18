@@ -1,1 +1,10 @@
-{}
+{
+  "meld-calc:encrypt-calc": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
+}

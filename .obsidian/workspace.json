@@ -1,14 +1,22 @@
 {
   "main": {
-    "id": "41e4244dcce26320",
+    "id": "0be970dec0586a9c",
     "type": "split",
     "children": [
       {
-        "id": "957af3f6981b6770",
+        "id": "192b4edc40c2a1c5",
         "type": "tabs",
         "children": [
           {
-            "id": "faf8d600df5f4365",
+            "id": "145d4eb171d157aa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "27a9bceedb67ff51",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,21 +27,22 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "de31eaca4a32e64f",
+    "id": "943f8ec009684d2e",
     "type": "split",
     "children": [
       {
-        "id": "c77f3009b0bd832d",
+        "id": "1ae29810eb5ea0d7",
         "type": "tabs",
         "children": [
           {
-            "id": "8e99d56b42b3202e",
+            "id": "1c3d11d5fbfa7728",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +52,15 @@
             }
           },
           {
-            "id": "b93e0bba098f18ff",
+            "id": "9649ea845131ff56",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0982c39257a13e75",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +75,7 @@
             }
           },
           {
-            "id": "001e26cb26b09a49",
+            "id": "8c454b005f992601",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,22 +86,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
-    "id": "5730ae23fb07c7d9",
+    "id": "747ea77863f22cdc",
     "type": "split",
     "children": [
       {
-        "id": "82c8705c4deed962",
+        "id": "95ff5fed2b69acbe",
         "type": "tabs",
         "children": [
           {
-            "id": "e51922919e649537",
+            "id": "43618dd0a2b4178e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,18 +114,19 @@
             }
           },
           {
-            "id": "ae54e0095ba7834a",
+            "id": "a6a6574793768dd4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3e2a31800e6f6a4a",
+            "id": "2c6d426e1eb1f530",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,16 +137,35 @@
             }
           },
           {
-            "id": "ca4f163bf6287a62",
+            "id": "0649ee38ef42f0dc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "abb0167f6172947e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "838a41997f5000c9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -141,12 +179,63 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian42-brat:BRAT": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "meld-encrypt:Create new encrypted note": false,
+      "cmdr:Obsidian Git: Push": false
     }
   },
-  "active": "8e99d56b42b3202e",
+  "active": "27a9bceedb67ff51",
   "lastOpenFiles": [
-    "README.md",
-    "test.md"
+    "Proxmox",
+    "OPNsense",
+    "Misp",
+    "Wazuh",
+    "DNS Unbound",
+    "VPN RoadWarrior",
+    "Leveling XP.md",
+    "Linux/SWAP File.md",
+    "Linux/FSTAB.md",
+    "Linux/Ubuntu.md",
+    "Sonhos.md",
+    "Untitled.md",
+    "Pergunta/Pergunta.md",
+    "Linux",
+    "Pergunta/Distribuição de poisson.md",
+    "Pergunta/Distribuição de Poisson.md",
+    "LAB/Untitled.canvas",
+    "Auxilio TCC.md",
+    "Links Cursos.md",
+    "Magic itens.md",
+    "elandro frederich francesco bostil.md",
+    "encrypt test.md",
+    "Math Reference.md",
+    "RPG Sanches/Reserva/Paladino.md",
+    "RPG Sanches/Status Iniciais.md",
+    "notas jogo.md",
+    "Pergunta/Untitled.canvas",
+    "LAB/Untitled.md",
+    "Untitled 20230313 111115.encrypted",
+    "Attachments/Pasted image 20230520224539.png",
+    "Ponto Frio/Untitled.md",
+    "Pergunta",
+    "Attachments/Pasted image 20230511103528.png",
+    "nota rapida.md",
+    "Meu RPG/Madness/madness.md",
+    "LAB",
+    "Meu RPG/Madness/Long-Term Madness.md",
+    "Meu RPG/Madness/Short-Term Madness.md",
+    "Meu RPG/Madness/indefinitive madnes.md",
+    "Attachments/u4dXOZyUBO7m8heu_transcoded-FaYbOJXcvx_PHRdd-Email Setup Link.mp4",
+    "Attachments/Torch_Gif.gif",
+    "Attachments/Screenshot_20221218_014542.png",
+    "Attachments/Screenshot_20221210_212242.png",
+    "Attachments/Pasted image 20221210165042.png",
+    "Attachments/Pasted image 20221210165033.png",
+    "Attachments/Pasted image 20221210165019.png",
+    "Attachments/Pasted image 20221210165007.png",
+    "Attachments/Pasted image 20221210164955.png"
   ]
 }

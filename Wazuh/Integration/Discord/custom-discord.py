@@ -44,6 +44,7 @@ else:
     agent_ = alert_json["agent"]["name"]
 
 # combine message details
+#to do verify if variable exist and if not do not use it
 content = "HML"
 network_ = alert_json["data"]["srcip"] + " -> " + alert_json["data"]["dstip"]
 payload = json.dumps({

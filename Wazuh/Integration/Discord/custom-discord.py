@@ -56,6 +56,11 @@ payload = json.dumps({
 						"value": agent_,
 						"inline": True
 						}]
+                "fields": [{
+						"name": "src",
+                        "value": data.srcip,
+                        "inline": True
+						}]
         }
     ]
 })

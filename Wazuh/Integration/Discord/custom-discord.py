@@ -44,8 +44,10 @@ else:
     agent_ = alert_json["agent"]["name"]
 
 # combine message details
+content = "SRC = " + alert_json["data"]["srcip"] +  " DST = " + alert_json["data"]["dstip"] + ":" + alert_json["data"][>
+# to-do validate if value exist
 payload = json.dumps({
-    "content": "",
+    "content": content,
     "embeds": [
         {
 		    "title": f"Wazuh Alert - Rule {alert_json['rule']['id']}",

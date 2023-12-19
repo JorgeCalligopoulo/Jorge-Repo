@@ -1,7 +1,7 @@
 source: https://github.com/maikroservice/wazuh-discord-integration/tree/main
 
-
-```json
+global configuration api call
+```xml
  <integration>
      <name>custom-discord</name>
      <hook_url>https://discord.com/api/webhooks/XXXXXXXXXXX</hook_url>
@@ -9,6 +9,8 @@ source: https://github.com/maikroservice/wazuh-discord-integration/tree/main
  </integration>
 ```
 
+
+copy both custom-discord and custom-discord.py to /var/ossec/integrations/
 
 set permissions 
 ```

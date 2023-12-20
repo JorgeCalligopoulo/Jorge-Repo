@@ -238,10 +238,10 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Integration/Discord/custom-discord.py",
-    "Wazuh/False Positives.md",
-    "README.md",
     "Shell scripts/GitSync.sh",
+    "Wazuh/False Positives.md",
+    "Wazuh/Integration/Discord/custom-discord.py",
+    "README.md",
     "Shell scripts",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",

@@ -59,7 +59,7 @@ else:
     network_ = net_name_ = ""
 
 # combine message details
-content = "HML:"
+content = "HML:script em ajuste"
 
 #Debbuger VV
 #with open('/home/custom-teams-debug.log', 'w', encoding='utf-8') as my_file:

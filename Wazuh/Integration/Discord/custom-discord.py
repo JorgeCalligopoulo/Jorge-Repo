@@ -73,7 +73,7 @@ payload = json.dumps({
 				"color": color,
 				"description": alert_json["rule"]["description"],
 				"fields": [
-               {"name": "Device","value": agent_,"inline": False},
+               {"name": "Agent","value": agent_,"inline": False},
                {"name": str(net_name_) ,"value": network_,"inline": False}
                ]
         }

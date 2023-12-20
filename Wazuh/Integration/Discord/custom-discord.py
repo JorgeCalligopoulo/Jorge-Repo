@@ -52,9 +52,9 @@ if ('dstip' in alert_json):
     network_ = alert_json["data"]["srcip"] + " -> " + alert_json["data"]["dstip"]
     net_name_ = "Network"
     if ('dstport' in alert_json):
-        network_ = str(network_) + ":" + str(alert_json["data"]["dstport"])
+        network_ = network_ + ":" + alert_json["data"]["dstport"]
     else:
-        network_ = str(network_) + ":N/A"
+        network_ = network_ + ":N/A"
 else:
     network_ = net_name_ = ""
 

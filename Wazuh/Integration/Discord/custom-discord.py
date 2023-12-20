@@ -43,7 +43,7 @@ if "agentless" in alert_json:
 else:
     agent_ = alert_json["agent"]["name"]
 
-# check for network log and set variables
+# check for network log and set variables in testing 
 
 network_ = alert_json["data"]["srcip"] + " >-> " + alert_json["data"]["dstip"]
 net_name_ = "Network"

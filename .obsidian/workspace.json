@@ -40,6 +40,16 @@
             }
           },
           {
+            "id": "8a2feebfc837b465",
+            "type": "leaf",
+            "state": {
+              "type": "code-editor",
+              "state": {
+                "file": "Shell scripts/GitSync.sh"
+              }
+            }
+          },
+          {
             "id": "27a9bceedb67ff51",
             "type": "leaf",
             "state": {
@@ -62,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py",
+                "file": "Shell scripts/GitSync.sh",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py",
+                "file": "Shell scripts/GitSync.sh",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py"
+                "file": "Shell scripts/GitSync.sh"
               }
             }
           },
@@ -224,10 +234,12 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "dd1d8847add1f4ae",
+  "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Discord/custom-discord.py",
+    "Shell scripts/GitSync.sh",
+    "Shell scripts",
+    "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Discord/custom-discord",
     "Wazuh/Integration/Teams/custom-teams.py",
@@ -242,7 +254,6 @@
     "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
     "README.md",
-    "Proxmox",
     "Leveling XP.md",
     "Linux/SWAP File.md",
     "Linux/FSTAB.md",

@@ -43,9 +43,11 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "markdown",
               "state": {
-                "file": "Shell scripts/GitSync.sh"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell scripts/GitSync.sh",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell scripts/GitSync.sh",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell scripts/GitSync.sh"
+                "file": "README.md"
               }
             }
           },
@@ -236,8 +238,8 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Integration/Discord/custom-discord.py",
     "Shell scripts/GitSync.sh",
+    "Wazuh/Integration/Discord/custom-discord.py",
     "Shell scripts",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",

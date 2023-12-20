@@ -43,10 +43,28 @@ if "agentless" in alert_json:
 else:
     agent_ = alert_json["agent"]["name"]
 
+# check for network log and set variables
+
+network_ = alert_json["data"]["srcip"] + " >-> " + alert_json["data"]["dstip"]
+net_name_ = "Network"
+
+if ('dstip' in alert_json):
+    network_ = alert_json["data"]["srcip"] + " -> " + alert_json["data"]["dstip"]
+    net_name_ = "Network"
+    if ('dstport' in alert_json):
+        network_ = str(network_) + ":" + str(alert_json["data"]["dstport"])
+    else:
+        network_ = str(network_) + ":N/A"
+else:
+    network_ = net_name_ = ""
+
 # combine message details
-#to do verify if variable exist and if not do not use it
-content = "HML"
-network_ = alert_json["data"]["srcip"] + " -> " + alert_json["data"]["dstip"]
+content = "HML:"
+
+#Debbuger VV
+#with open('/home/custom-teams-debug.log', 'w', encoding='utf-8') as my_file:
+#    my_file.write(str(content) + '\n')
+
 payload = json.dumps({
     "content": content,
     "embeds": [
@@ -56,8 +74,7 @@ payload = json.dumps({
 				"description": alert_json["rule"]["description"],
 				"fields": [
                {"name": "Agent","value": agent_,"inline": False},
-               {"name": "network","value": network_,"inline": False},
-               {"name": "","value": "","inline": False}
+               {"name": str(net_name_) ,"value": network_,"inline": False}
                ]
         }
     ]

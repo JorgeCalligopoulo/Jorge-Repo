@@ -45,9 +45,6 @@ else:
 
 # check for network log and set variables in testing 
 
-#network_ = alert_json["data"]["srcip"] + " >-> " + alert_json["data"]["dstip"]
-#net_name_ = "Network"
-
 if ("dstip" in str(alert_json)):
     network_ = ((alert_json["data"]["srcip"]) + " -> " + (alert_json["data"]["dstip"]))
     net_name_ = "Network"
@@ -55,6 +52,10 @@ if ("dstip" in str(alert_json)):
         network_ = (network_ + ":" + (alert_json["data"]["dstport"]))
     else:
         network_ = (network_ + ":N/A")
+    if ("protocol" in str(alert_json)):
+        network_ = (network_ + "\nProto: " + (alert_json["data"]["protocol"]))
+    else:
+        network_ = (network_ + "\nProto: N/A")
 else:
     network_ = net_name_ = ""
 

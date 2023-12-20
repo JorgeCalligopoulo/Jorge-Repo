@@ -12,8 +12,10 @@ LXC -- it is expected to be present in /dev so the bellow config can be incremen
 ```
 
 
-latest Diff being detected as trojan file 
-/var/ossec/etc/shared/rootkit_trojans.txt
+latest Diff being detected as Trojan file 
+" Trojaned version of file '/usr/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic)."
+
+/var/ossec/etc/rootcheck/rootkit_trojans.txt
 ```
 -diff        !bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh!
 +diff        !bash|^/bin/sh|file\.h|proc\.h|/dev/[^nf]|^/bin/.*sh!

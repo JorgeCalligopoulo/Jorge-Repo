@@ -20,7 +20,8 @@ latest Diff being detected as Trojan file
 -diff        !bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh!
 +diff        !bash|^/bin/sh|file\.h|proc\.h|/dev/[^nf]|^/bin/.*sh!
 ```
-
+or use a more recent version of the file
+https://github.com/ossec/ossec-hids/blob/master/src/rootcheck/db/rootkit_trojans.txt
 
 
 

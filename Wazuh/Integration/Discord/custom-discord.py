@@ -47,7 +47,7 @@ else:
 
 if ("dstip" in str(alert_json)):
     network_ = ((alert_json["data"]["srcip"]) + " -> " + (alert_json["data"]["dstip"]))
-    net_name_ = "Network"
+    netName_ = "Network: "
     if ("dstport" in str(alert_json)):
         network_ = (network_ + ":" + (alert_json["data"]["dstport"]))
     else:
@@ -57,7 +57,7 @@ if ("dstip" in str(alert_json)):
     else:
         network_ = (network_ + "\nProto: N/A")
 else:
-    network_ = net_name_ = ""
+    network_ = netName_= ""
 
 # combine message details
 content = "HML: in testing"
@@ -75,7 +75,7 @@ payload = json.dumps({
 				"description": alert_json["rule"]["description"],
 				"fields": [
                {"name": "Agent","value": agent_,"inline": False},
-               {"name": "Network: " ,"value": network_,"inline": False}
+               {"name": netName_,"value": network_,"inline": False}
                ]
         }
     ]

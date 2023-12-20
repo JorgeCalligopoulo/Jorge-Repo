@@ -45,21 +45,21 @@ else:
 
 # check for network log and set variables in testing 
 
-network_ = alert_json["data"]["srcip"] + " >-> " + alert_json["data"]["dstip"]
-net_name_ = "Network"
+#network_ = alert_json["data"]["srcip"] + " >-> " + alert_json["data"]["dstip"]
+#net_name_ = "Network"
 
-if ('dstip' in alert_json):
-    network_ = alert_json["data"]["srcip"] + " -> " + alert_json["data"]["dstip"]
+if ("dstip" in str(alert_json)):
+    network_ = ((alert_json["data"]["srcip"]) + " -> " + (alert_json["data"]["dstip"]))
     net_name_ = "Network"
-    if ('dstport' in alert_json):
-        network_ = network_ + ":" + alert_json["data"]["dstport"]
+    if ("dstport" in str(alert_json)):
+        network_ = (network_ + ":" + (alert_json["data"]["dstport"]))
     else:
-        network_ = network_ + ":N/A"
+        network_ = (network_ + ":N/A")
 else:
     network_ = net_name_ = ""
 
 # combine message details
-content = "HML:script em ajuste"
+content = "HML: in testing"
 
 #Debbuger VV
 #with open('/home/custom-teams-debug.log', 'w', encoding='utf-8') as my_file:
@@ -74,7 +74,7 @@ payload = json.dumps({
 				"description": alert_json["rule"]["description"],
 				"fields": [
                {"name": "Agent","value": agent_,"inline": False},
-               {"name": str(net_name_) ,"value": network_,"inline": False}
+               {"name": "Network: " ,"value": network_,"inline": False}
                ]
         }
     ]

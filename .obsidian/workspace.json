@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Wazuh/False Positives.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Wazuh/False Positives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Wazuh/False Positives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Wazuh/False Positives.md"
               }
             }
           },
@@ -238,6 +238,8 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "README.md",
+    "Wazuh/False Positives.md",
     "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Discord/custom-discord.py",
     "Shell scripts",
@@ -252,10 +254,8 @@
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.ts",
     "Wazuh/custom-teams.py.md",
-    "Attachments",
     "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
-    "README.md",
     "Leveling XP.md",
     "Linux/SWAP File.md",
     "Linux/FSTAB.md",

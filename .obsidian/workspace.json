@@ -43,11 +43,14 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Wazuh/False Positives.md",
-                "mode": "source",
-                "source": false
+                "file": "OPNsense/Test Canvas.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -148,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/False Positives.md",
+                "file": "OPNsense/Test Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/False Positives.md",
+                "file": "OPNsense/Test Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/False Positives.md"
+                "file": "OPNsense/Test Canvas.canvas"
               }
             }
           },
@@ -238,8 +241,9 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Shell scripts/GitSync.sh",
     "Wazuh/False Positives.md",
+    "OPNsense/Test Canvas.canvas",
+    "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Discord/custom-discord.py",
     "README.md",
     "Shell scripts",

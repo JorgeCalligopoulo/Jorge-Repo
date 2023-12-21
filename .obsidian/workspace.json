@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Integration/Discord/Discord Integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Integration/Discord/Discord Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Wazuh/Integration/Discord/Discord Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OPNsense/Oracle cloud.md"
+                "file": "Wazuh/Integration/Discord/Discord Integration.md"
               }
             }
           },
@@ -238,8 +238,10 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "OPNsense/Logic Topology.md",
+    "Wazuh/Integration/Discord/custom-discord",
+    "Wazuh/Integration/Discord/custom-discord.py",
     "OPNsense/Oracle cloud.md",
+    "OPNsense/Logic Topology.md",
     "Attachments/Topology.png",
     "Attachments/lu2639813g1fuo.tmp",
     "Attachments/lu2639813g1fuk.tmp",
@@ -252,7 +254,6 @@
     "Wazuh/False Positives.md",
     "OPNsense/Test Canvas.canvas",
     "Shell scripts/GitSync.sh",
-    "Wazuh/Integration/Discord/custom-discord.py",
     "README.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",

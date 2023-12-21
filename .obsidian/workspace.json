@@ -238,8 +238,9 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Attachments/Topology.png",
+    "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
+    "Attachments/Topology.png",
     "Attachments/lu2561573cvt0a.tmp",
     "Attachments/lu2561573cvt06.tmp",
     "Attachments/Topology.odg",
@@ -258,7 +259,6 @@
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",
     "Wazuh/Wazuh.md",
-    "OPNsense/Oracle cloud.md",
     "Leveling XP.md",
     "Linux/SWAP File.md",
     "Linux/FSTAB.md",

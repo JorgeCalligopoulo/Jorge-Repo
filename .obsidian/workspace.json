@@ -43,11 +43,9 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OPNsense/Logic Topology.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachments/Topology.png"
               }
             }
           },
@@ -148,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OPNsense/Logic Topology.md",
+                "file": "Attachments/Topology.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OPNsense/Logic Topology.md",
+                "file": "Attachments/Topology.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OPNsense/Logic Topology.md"
+                "file": "Attachments/Topology.png"
               }
             }
           },
@@ -238,10 +236,10 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "OPNsense/Logic Topology.md",
     "Attachments/lu2636253fy7ah.tmp",
     "Attachments/lu2636253fy7ad.tmp",
     "OPNsense/Oracle cloud.md",
-    "OPNsense/Logic Topology.md",
     "Attachments/Topology.png",
     "Attachments/lu2561573cvt0a.tmp",
     "Attachments/lu2561573cvt06.tmp",
@@ -256,7 +254,6 @@
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Discord/custom-discord",
-    "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",
     "Wazuh/Wazuh.md",

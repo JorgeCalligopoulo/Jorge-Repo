@@ -43,9 +43,11 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Topology.png"
+                "file": "OPNsense/Logic Topology.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -109,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "acess",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -146,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Topology.png",
+                "file": "OPNsense/Logic Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Topology.png",
+                "file": "OPNsense/Logic Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Topology.png"
+                "file": "OPNsense/Logic Topology.md"
               }
             }
           },
@@ -234,10 +237,10 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "8a2feebfc837b465",
+  "active": "0982c39257a13e75",
   "lastOpenFiles": [
-    "OPNsense/Oracle cloud.md",
     "Attachments/Topology.png",
+    "OPNsense/Oracle cloud.md",
     "Attachments/lu2639813g1fuo.tmp",
     "Attachments/lu2639813g1fuk.tmp",
     "OPNsense/Logic Topology.md",

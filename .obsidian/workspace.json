@@ -238,8 +238,13 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/False Positives.md",
+    "Attachments/Topology.png",
     "OPNsense/Logic Topology.md",
+    "Attachments/lu2561573cvt0a.tmp",
+    "Attachments/lu2561573cvt06.tmp",
+    "Attachments/Topology.odg",
+    "Attachments/lu2561573cvt03.tmp",
+    "Wazuh/False Positives.md",
     "OPNsense/Test Canvas.canvas",
     "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Discord/custom-discord.py",
@@ -250,11 +255,7 @@
     "Wazuh/Integration/Discord/custom-discord",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Teams/custom-teams",
-    "Wazuh/Integration/Discord",
-    "Wazuh/Integration/Teams",
-    "Wazuh/Integration",
     "Wazuh/Discord Integration.md",
-    "Wazuh/custom-teams.ts",
     "Wazuh/custom-teams.py.md",
     "Wazuh/Wazuh.md",
     "OPNsense/Oracle cloud.md",
@@ -275,7 +276,6 @@
     "encrypt test.md",
     "Math Reference.md",
     "RPG Sanches/Reserva/Paladino.md",
-    "RPG Sanches/Status Iniciais.md",
     "Pergunta/Untitled.canvas",
     "Attachments/Pasted image 20230520224539.png",
     "Attachments/Pasted image 20230511103528.png",
@@ -285,7 +285,6 @@
     "Attachments/Pasted image 20221210165042.png",
     "Attachments/Pasted image 20221210165033.png",
     "Attachments/Pasted image 20221210165019.png",
-    "Attachments/Pasted image 20221210165007.png",
-    "Attachments/Pasted image 20221210164955.png"
+    "Attachments/Pasted image 20221210165007.png"
   ]
 }

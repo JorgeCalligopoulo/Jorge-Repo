@@ -43,11 +43,9 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/Discord/Discord Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Wazuh/Integration/Discord/custom-discord.py"
               }
             }
           },
@@ -148,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Discord/Discord Integration.md",
+                "file": "Wazuh/Integration/Discord/custom-discord.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Discord/Discord Integration.md",
+                "file": "Wazuh/Integration/Discord/custom-discord.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Discord/Discord Integration.md"
+                "file": "Wazuh/Integration/Discord/custom-discord.py"
               }
             }
           },
@@ -238,8 +236,10 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Integration/Discord/custom-discord",
+    "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Discord/custom-discord.py",
+    "Wazuh/Integration/Discord/custom-discord",
+    "Wazuh/Integration/Discord/Discord Integration.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "Attachments/Topology.png",
@@ -253,9 +253,7 @@
     "Attachments/lu2561573cvt03.tmp",
     "Wazuh/False Positives.md",
     "OPNsense/Test Canvas.canvas",
-    "Shell scripts/GitSync.sh",
     "README.md",
-    "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",

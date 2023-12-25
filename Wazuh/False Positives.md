@@ -23,6 +23,8 @@ latest Diff being detected as Trojan file
 or use a more recent version of the file >> /var/ossec/etc/shared/
 https://github.com/ossec/ossec-hids/blob/master/src/rootcheck/db/rootkit_trojans.txt
 
+the spam keep coming even whit the updated database.... so going to look up whit integrating it whit MIP
+
 
 
 

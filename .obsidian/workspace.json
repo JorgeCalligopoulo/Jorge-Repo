@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/False Positives.md",
+                "file": "Misp/Misp-Certificate.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/False Positives.md",
+                "file": "Misp/Misp-Certificate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/False Positives.md",
+                "file": "Misp/Misp-Certificate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/False Positives.md"
+                "file": "Misp/Misp-Certificate.md"
               }
             }
           },
@@ -238,6 +238,8 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/False Positives.md",
+    "Misp/Misp-Certificate.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Discord/custom-discord.py",
     "Shell scripts/GitSync.sh",
@@ -252,7 +254,6 @@
     "Attachments/lu2561573cvt0a.tmp",
     "Attachments/lu2561573cvt06.tmp",
     "Attachments/Topology.odg",
-    "Wazuh/False Positives.md",
     "OPNsense/Test Canvas.canvas",
     "README.md",
     "Wazuh/Integration/Teams/Teams Integration.md",

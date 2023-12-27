@@ -1,6 +1,6 @@
 Certificate can be found att /etc/ssl/private/misp.local.crt and misp.local.key
 
-note: copy the old certificate in case it is needed, 
+note: backup the old certificate in case it is needed, 
 ```shell
 mkdir old
 cp misp.local.crt old/misp.local.crt

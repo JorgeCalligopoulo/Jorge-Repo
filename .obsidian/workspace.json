@@ -52,6 +52,16 @@
             }
           },
           {
+            "id": "d4abb1d2cf1cf96e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "27a9bceedb67ff51",
             "type": "leaf",
             "state": {
@@ -74,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,7 +216,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -236,7 +248,7 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "8a2feebfc837b465",
+  "active": "d4abb1d2cf1cf96e",
   "lastOpenFiles": [
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Misp/Misp Integration.md",

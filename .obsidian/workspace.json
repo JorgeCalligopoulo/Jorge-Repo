@@ -52,16 +52,6 @@
             }
           },
           {
-            "id": "d4abb1d2cf1cf96e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
             "id": "27a9bceedb67ff51",
             "type": "leaf",
             "state": {
@@ -84,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -248,7 +238,7 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "d4abb1d2cf1cf96e",
+  "active": "8a2feebfc837b465",
   "lastOpenFiles": [
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Wazuh/Integration/Misp/Misp Integration.md",

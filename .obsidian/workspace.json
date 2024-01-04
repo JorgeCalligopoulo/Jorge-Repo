@@ -43,11 +43,9 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/Misp/Misp Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Wazuh/Integration/Discord/custom-discord.py"
               }
             }
           },
@@ -148,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Misp/Misp Integration.md",
+                "file": "Wazuh/Integration/Discord/custom-discord.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Misp/Misp Integration.md",
+                "file": "Wazuh/Integration/Discord/custom-discord.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Misp/Misp Integration.md"
+                "file": "Wazuh/Integration/Discord/custom-discord.py"
               }
             }
           },
@@ -240,9 +238,9 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Integration/Discord/Discord Integration.md",
-    "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/custom-discord",
+    "Wazuh/Integration/Misp/Misp Integration.md",
+    "Wazuh/Integration/Discord/Discord Integration.md",
     "Misp/Misp-Certificate.md",
     "Wazuh/Integration/Misp",
     "Wazuh/False Positives.md",
@@ -278,7 +276,6 @@
     "Magic itens.md",
     "elandro frederich francesco bostil.md",
     "encrypt test.md",
-    "Math Reference.md",
     "Pergunta/Untitled.canvas",
     "Attachments/Pasted image 20230520224539.png",
     "Attachments/Pasted image 20230511103528.png",

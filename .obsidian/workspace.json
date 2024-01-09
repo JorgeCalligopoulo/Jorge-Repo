@@ -45,7 +45,7 @@
             "state": {
               "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py"
+                "file": "Wazuh/Integration/Discord/custom-discord"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py",
+                "file": "Wazuh/Integration/Discord/custom-discord",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py",
+                "file": "Wazuh/Integration/Discord/custom-discord",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py"
+                "file": "Wazuh/Integration/Discord/custom-discord"
               }
             }
           },
@@ -238,13 +238,13 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/Integration/Discord/custom-discord.py",
     "Wazuh/Integration/Discord/custom-discord",
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Misp/Misp-Certificate.md",
     "Wazuh/Integration/Misp",
     "Wazuh/False Positives.md",
-    "Wazuh/Integration/Discord/custom-discord.py",
     "Shell scripts/GitSync.sh",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",

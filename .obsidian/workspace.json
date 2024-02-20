@@ -43,11 +43,9 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Wazuh/Integration/Teams/Teams Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachments/Topology.png"
               }
             }
           },
@@ -148,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Teams/Teams Integration.md",
+                "file": "Attachments/Topology.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Teams/Teams Integration.md",
+                "file": "Attachments/Topology.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Teams/Teams Integration.md"
+                "file": "Attachments/Topology.png"
               }
             }
           },
@@ -240,6 +238,7 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Teams/custom-teams",
     "Wazuh/Integration/Misp/custom-misp.py",
@@ -257,10 +256,8 @@
     "Attachments/Topology.png",
     "Attachments/lu2639813g1fuo.tmp",
     "Attachments/lu2639813g1fuk.tmp",
-    "Attachments/lu2636253fy7ah.tmp",
     "OPNsense/Test Canvas.canvas",
     "README.md",
-    "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",
     "Wazuh/Wazuh.md",

@@ -43,9 +43,11 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Topology.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Topology.png",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Topology.png",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Topology.png"
+                "file": "README.md"
               }
             }
           },
@@ -238,6 +240,7 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Attachments/Topology.png",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Teams/custom-teams",
@@ -253,7 +256,6 @@
     "Shell scripts/GitSync.sh",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
-    "Attachments/Topology.png",
     "Attachments/lu2639813g1fuo.tmp",
     "Attachments/lu2639813g1fuk.tmp",
     "OPNsense/Test Canvas.canvas",

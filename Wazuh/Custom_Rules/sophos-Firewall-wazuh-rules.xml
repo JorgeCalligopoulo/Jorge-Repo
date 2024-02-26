@@ -1,0 +1,184 @@
+<!-- Modify it at your will. 
+Rule Id's reserved for this workflow
+102101 -> 102200
+created by jorge calligopoulo to use whit Sophos Firewalls
+-->
+<group name="sophos,firewall">
+
+  <!-- #############################
+       ###   102101 <-> 102109   ###
+       ###      Regra Base       ###
+       ############################# -->
+
+  <rule id="102101" level="3">
+    <regex>^device_name="SFW"</regex>
+    <decoded_as>custom-sophos-fw</decoded_as>
+    <description>Sophos Firewall Base Rule</description>
+    <group></group>
+  </rule>
+  
+  <!-- #############################
+       ###   102110 <-> 102119   ###
+       ###   Filtro de ruido     ###
+       ############################# -->
+  
+  <rule id="102110" level="0">
+    <if_sid>102101</if_sid>
+    <field name="type">^Content Filtering</field>
+    <description>Sophos Firewall traffic log</description>
+    <group></group>
+  </rule>
+  
+  <rule id="102111" level="0">
+    <if_sid>102101</if_sid>
+    <field name="type">^System Health</field>
+    <description>Sophos Firewall System Health log</description>
+    <group></group>
+  </rule>
+  
+  <rule id="102112" level="0">
+    <if_sid>102101</if_sid>
+    <field name="message">^Removed the urgent flag and pointer in TCP header</field>
+    <description>Sophos Firewall Priority flag on header</description>
+    <group>,noise</group>
+  </rule>
+  
+  <!-- #############################
+       ###   102120 <-> 102129   ###
+       ###      Filtro  IPS      ###
+       ############################# -->
+  
+  <rule id="102120" level="5">
+    <if_sid>102101</if_sid>
+    <field name="type">^IDP</field>
+    <description>Sophos Firewall IPS log</description>
+    <group>,IPS</group>
+  </rule>
+  
+  <rule id="102121" level="5">
+    <if_sid>102120</if_sid>
+    <field name="log_component">^Anomaly</field>
+    <description>Sophos Firewall IPS log Anomaly</description>
+    <group>,IPS,Anomaly</group>
+  </rule>
+  
+  <rule id="102122" level="5">
+    <if_sid>102120</if_sid>
+    <field name="log_component">^Signatures</field>
+    <description>Sophos Firewall IPS log Signatures</description>
+    <group>,IPS,Signature</group>
+  </rule>
+  
+  <rule id="102123" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">^SCAN</field>
+    <description>Sophos Firewall IPS log Signatures SCAN</description>
+    <group>,IPS,scan</group>
+  </rule>
+  
+  <rule id="102124" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">brute force</field>
+    <description>Sophos Firewall IPS log Signatures brute force</description>
+    <group>,IPS,brute force</group>
+  </rule>
+  
+  <rule id="102125" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">Command Injection Attempt</field>
+    <description>Sophos Firewall IPS log Signatures Command Injection Attempt</description>
+    <group>,IPS,Command Injection Attempt</group>
+  </rule>
+  
+  <rule id="102126" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">Remote Code Execution</field>
+    <description>Sophos Firewall IPS log Signatures Remote Code Execution</description>
+    <group>,IPS,Remote Code Execution</group>
+  </rule>
+  
+  <rule id="102127" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">External Entity Information Disclosure</field>
+    <description>Sophos Firewall IPS log Signatures External Entity Information Disclosure</description>
+    <group>,IPS,Disclosure</group>
+  </rule>
+  
+  <rule id="102128" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">buffer overflow attempt</field>
+    <description>Sophos Firewall IPS log Signatures buffer overflow attempt</description>
+    <group>,IPS,overflow</group>
+  </rule>
+  
+  <rule id="102129" level="5">
+    <if_sid>102122</if_sid>
+    <field name="message">^MALWARE</field>
+    <description>Sophos Firewall IPS log Signatures MALWARE</description>
+    <group>,IPS,malware</group>
+  </rule>
+  
+  <!-- #############################
+       ###   102130 <-> 102139   ###
+       ###    Filtro  Accessos   ###
+       ############################# -->
+  
+  <rule id="102130" level="3">
+    <if_sid>102101</if_sid>
+    <field name="type">^Event</field>
+    <field name="log_subtype">^Admin</field>
+    <description>Sophos Firewall Admin</description>
+    <group>,logon</group>
+  </rule>
+  
+  <rule id="102131" level="5">
+    <if_sid>102130</if_sid>
+    <field name="message">failed to login|couldn't sign in</field>
+    <description>Sophos Firewall Access Control Failed Access</description>
+    <group>,logon,bruteforce</group>
+  </rule>
+  
+  <rule id="102132" level="3">
+    <if_sid>102130</if_sid>
+    <field name="message">^Login Disclaimer was accepted</field>
+    <description>Sophos Firewall suppress</description>
+    <group>,logon,ignore,noise</group>
+  </rule>
+  
+  <rule id="102133" level="3">
+    <if_sid>102130</if_sid>
+    <field name="message">logged out</field>
+    <description>Sophos Firewall suppress</description>
+    <group>,logon,ignore,noise</group>
+  </rule>
+  
+  <rule id="102134" level="5">
+    <if_sid>102130</if_sid>
+    <field name="message">Settings were changed</field>
+    <description>Sophos Firewall Settings were changed</description>
+    <group>,config</group>
+  </rule>
+  
+  <rule id="102135" level="5">
+    <if_sid>102130</if_sid>
+    <field name="message">logged in</field>
+    <description>Sophos Firewall Access Control Succesfull Access</description>
+    <group>logon,config</group>
+  </rule>
+  
+  <!-- #############################
+       ###   102140 <-> 102149   ###
+       ###    Filtro  ATP        ###
+       ############################# -->
+
+  <rule id="102140" level="5">
+    <if_sid>102101</if_sid>
+    <field name="type">^ATP</field>
+    <description>Sophos Firewall Advanced Thread Protection</description>
+    <group>,atp</group>
+  </rule>
+       
+       
+
+  
+</group>

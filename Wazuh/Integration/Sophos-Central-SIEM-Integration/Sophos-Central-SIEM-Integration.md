@@ -1,4 +1,6 @@
-
+Integrator from sophos
+https://github.com/sophos/Sophos-Central-SIEM-Integration
+remember to config it!
 
 to collect logs every x time I use a cron rule to run the script 
 ```crontab

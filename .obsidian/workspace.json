@@ -45,7 +45,7 @@
             "state": {
               "type": "code-editor",
               "state": {
-                "file": "Shell scripts/GitSync.sh"
+                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell scripts/GitSync.sh",
+                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell scripts/GitSync.sh",
+                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell scripts/GitSync.sh"
+                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml"
               }
             }
           },
@@ -238,25 +238,26 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
+    "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
+    "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
+    "Shell scripts/GitSync.sh",
+    "Wazuh/Integration/Sophos-Central-SIEM-Integration",
+    "Wazuh/Custom_Rules",
+    "Wazuh/Custom_Decoders/01_Custom_Sophos_Firewall.xml",
+    "Wazuh/Custom_Decoders",
     "README.md",
     "Attachments/Topology.png",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Teams/custom-teams",
     "Wazuh/Integration/Misp/custom-misp.py",
-    "Wazuh/Integration/Misp/custom-misp-ip.py",
     "Wazuh/Integration/Misp/Misp Integration.md",
-    "Wazuh/Integration/Discord/custom-discord.py",
     "Wazuh/Integration/Discord/Discord Integration.md",
-    "Wazuh/Integration/Discord/custom-discord",
     "Misp/Misp-Certificate.md",
-    "Wazuh/Integration/Misp",
     "Wazuh/False Positives.md",
-    "Shell scripts/GitSync.sh",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
-    "Attachments/lu2639813g1fuo.tmp",
-    "Attachments/lu2639813g1fuk.tmp",
     "OPNsense/Test Canvas.canvas",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",
@@ -275,7 +276,6 @@
     "Links Cursos.md",
     "Magic itens.md",
     "elandro frederich francesco bostil.md",
-    "encrypt test.md",
     "Pergunta/Untitled.canvas",
     "Attachments/Pasted image 20230520224539.png",
     "Attachments/Pasted image 20230511103528.png",

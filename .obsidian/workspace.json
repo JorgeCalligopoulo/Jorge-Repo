@@ -43,10 +43,8 @@
             "id": "8a2feebfc837b465",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
-              "state": {
-                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml"
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -146,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
+                "file": "Wazuh/Integration/Discord/Discord Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
+                "file": "Wazuh/Integration/Discord/Discord Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml"
+                "file": "Wazuh/Integration/Discord/Discord Integration.md"
               }
             }
           },
@@ -238,8 +236,8 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
-    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
+    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration",

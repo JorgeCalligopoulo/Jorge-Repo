@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
+                "file": "Wazuh/rootcheck noise.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
+                "file": "Wazuh/rootcheck noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
+                "file": "Wazuh/rootcheck noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md"
+                "file": "Wazuh/rootcheck noise.md"
               }
             }
           },
@@ -240,10 +240,11 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
+    "Wazuh/Integration/WorkFlows",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
     "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
-    "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration",
     "Wazuh/Custom_Rules",
@@ -253,11 +254,10 @@
     "Attachments/Topology.png",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Teams/custom-teams",
-    "Wazuh/Integration/Misp/custom-misp.py",
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Misp/Misp-Certificate.md",
-    "Wazuh/False Positives.md",
+    "Wazuh/rootcheck noise.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "OPNsense/Test Canvas.canvas",

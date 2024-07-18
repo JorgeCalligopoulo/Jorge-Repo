@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/rootcheck noise.md",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/rootcheck noise.md",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/rootcheck noise.md",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/rootcheck noise.md"
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
               }
             }
           },
@@ -240,9 +240,11 @@
   },
   "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Wazuh/Integration/Teams/Teams Integration.md",
+    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Wazuh/Integration/WorkFlows",
-    "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
     "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Shell scripts/GitSync.sh",
@@ -257,7 +259,6 @@
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Misp/Misp-Certificate.md",
-    "Wazuh/rootcheck noise.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "OPNsense/Test Canvas.canvas",

@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Misp/Misp-Certificate.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Misp/Misp-Certificate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OPNsense/Oracle cloud.md",
+                "file": "Misp/Misp-Certificate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OPNsense/Oracle cloud.md"
+                "file": "Misp/Misp-Certificate.md"
               }
             }
           },
@@ -252,8 +252,8 @@
   },
   "active": "a92ce6d77f7b1061",
   "lastOpenFiles": [
-    "OPNsense/Logic Topology.md",
     "OPNsense/Oracle cloud.md",
+    "OPNsense/Logic Topology.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",

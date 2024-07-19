@@ -55,9 +55,11 @@
             "id": "a92ce6d77f7b1061",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "markdown",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow.py"
+                "file": "OPNsense/Oracle cloud.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -158,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
+                "file": "OPNsense/Oracle cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
+                "file": "OPNsense/Oracle cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow.py"
+                "file": "OPNsense/Oracle cloud.md"
               }
             }
           },
@@ -248,10 +250,12 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "1c3d11d5fbfa7728",
+  "active": "a92ce6d77f7b1061",
   "lastOpenFiles": [
-    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "OPNsense/Logic Topology.md",
+    "OPNsense/Oracle cloud.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
+    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
@@ -269,8 +273,6 @@
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "Misp/Misp-Certificate.md",
-    "OPNsense/Oracle cloud.md",
-    "OPNsense/Logic Topology.md",
     "OPNsense/Test Canvas.canvas",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",

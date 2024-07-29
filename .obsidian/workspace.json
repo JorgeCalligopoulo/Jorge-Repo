@@ -18,81 +18,19 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "192b4edc40c2a1c5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "145d4eb171d157aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wazuh/Integration/Discord/Discord Integration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           },
           {
-            "id": "41068fe826b4488d",
+            "id": "a8a28d5ea6b20512",
             "type": "leaf",
             "state": {
               "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py"
-              }
-            }
-          },
-          {
-            "id": "dd1d8847add1f4ae",
-            "type": "leaf",
-            "state": {
-              "type": "code-editor",
-              "state": {
-                "file": "Wazuh/Integration/Discord/custom-discord.py"
-              }
-            }
-          },
-          {
-            "id": "a92ce6d77f7b1061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misp/Misp-Certificate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27a9bceedb67ff51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wazuh/Integration/Teams/Teams Integration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec98bccdfe44328d",
-            "type": "leaf",
-            "state": {
-              "type": "code-editor",
-              "state": {
-                "file": "Wazuh/Integration/Teams/custom-teams.py"
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
               }
             }
           },
@@ -256,13 +194,14 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "8a2feebfc837b465",
+  "active": "1c3d11d5fbfa7728",
   "lastOpenFiles": [
+    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
     "Misp/Misp-Certificate.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
-    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
@@ -276,7 +215,6 @@
     "Wazuh/Custom_Decoders",
     "README.md",
     "Attachments/Topology.png",
-    "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "OPNsense/Test Canvas.canvas",

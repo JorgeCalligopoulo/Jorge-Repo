@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misp/Misp-Certificate.md",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misp/Misp-Certificate.md",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misp/Misp-Certificate.md"
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
               }
             }
           },
@@ -256,8 +256,9 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "a92ce6d77f7b1061",
+  "active": "8a2feebfc837b465",
   "lastOpenFiles": [
+    "Misp/Misp-Certificate.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
@@ -278,7 +279,6 @@
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
-    "Misp/Misp-Certificate.md",
     "OPNsense/Test Canvas.canvas",
     "Wazuh/Discord Integration.md",
     "Wazuh/custom-teams.py.md",

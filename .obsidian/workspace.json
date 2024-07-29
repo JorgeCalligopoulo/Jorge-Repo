@@ -23,9 +23,11 @@
             "id": "a8a28d5ea6b20512",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "markdown",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
+                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
               }
             }
           },
@@ -194,15 +196,16 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "1c3d11d5fbfa7728",
+  "active": "a8a28d5ea6b20512",
   "lastOpenFiles": [
+    "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "Wazuh/Integration/Teams/Teams Integration.md",
+    "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
     "Misp/Misp-Certificate.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
-    "Wazuh/Integration/WorkFlows/custom-teams-workflow.py",
-    "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Wazuh/Integration/WorkFlows",
@@ -212,7 +215,6 @@
     "Wazuh/Integration/Sophos-Central-SIEM-Integration",
     "Wazuh/Custom_Rules",
     "Wazuh/Custom_Decoders/01_Custom_Sophos_Firewall.xml",
-    "Wazuh/Custom_Decoders",
     "README.md",
     "Attachments/Topology.png",
     "Wazuh/Integration/Misp/Misp Integration.md",

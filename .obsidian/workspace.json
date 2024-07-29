@@ -23,11 +23,9 @@
             "id": "a8a28d5ea6b20512",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Shell scripts/GitSync.sh"
               }
             }
           }
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Shell scripts/GitSync.sh",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Shell scripts/GitSync.sh",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
+                "file": "Shell scripts/GitSync.sh"
               }
             }
           },
@@ -198,8 +196,10 @@
   },
   "active": "a8a28d5ea6b20512",
   "lastOpenFiles": [
-    "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
+    "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
+    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
@@ -209,8 +209,6 @@
     "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Wazuh/Integration/WorkFlows",
-    "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
-    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Shell scripts/GitSync.sh",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration",
     "Wazuh/Custom_Rules",

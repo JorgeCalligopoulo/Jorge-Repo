@@ -39,14 +39,15 @@ the URL address has the character "&" that upon saving is transformed into  "&am
 
 Power automate:
 
-Start"When a Teams webhook request is received"
+Start
+"When a Teams webhook request is received"
 Who can trigger the flow?:  Anyone
 
 Second Step:
 "Post message in a chat or channel"
 Post as: Flow bot
 Post in: Channel
-Team: `<Select desired Team>
-Channel: `<Select desired channel>
-Adaptive Card: @{triggerBody()}
+Team: `<Select desired Team>`
+Channel: `<Select desired channel>`
+Adaptive Card: `@{triggerBody()}`
 in other words chose the "body" From Start node

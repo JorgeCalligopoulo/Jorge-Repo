@@ -1,5 +1,7 @@
 Workflows integration to be used alongside power automate...... because teams integrations are being discontinued.
 
+https://feedbackportal.microsoft.com/feedback/idea/80ed6877-b642-ef11-b4ad-000d3a7aba8b
+
 it was make based on previous teams integration
 
 

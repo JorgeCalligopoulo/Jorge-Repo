@@ -4,6 +4,7 @@ https://feedbackportal.microsoft.com/feedback/idea/80ed6877-b642-ef11-b4ad-000d3
 
 it was make based on previous teams integration
 
+The msg part of the code was updated to send adaptive card on body: https://adaptivecards.io/designer/
 
 custom-teams-workflow.py is to be used whit weebrook
 

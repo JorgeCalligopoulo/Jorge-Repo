@@ -95,7 +95,7 @@ def generate_msg(alert):
     alertTitle = "WAZUH Alert"
     level = alert['rule']['level']
     if (level <= 4):
-            color = "good"
+            color = "Good"
     elif (level >= 5 and level <= 7):
             color = "warning"
     else:
@@ -118,7 +118,7 @@ def generate_msg(alert):
             {
                 "type": "TextBlock",
                 "text": "██████████████████████████████████████████████████████████████████",
-                "color": "Good",
+                "color": color,
                 "horizontalAlignment": "Center",
                 "spacing": "None",
                 "fontType": "Monospace"

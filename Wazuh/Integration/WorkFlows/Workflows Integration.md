@@ -129,67 +129,67 @@ Parse Json
 Compose
 
 ```json
-{  
-"type": "AdaptiveCard",  
-"body": [  
-{  
-"type": "TextBlock",  
-"text": "██████████████████████████████████████████████████████████████████",  
-"color": <dynamic Color>,  
-"horizontalAlignment": "Center",  
-"spacing": "None",  
-"fontType": "Monospace"  
-},  
-{  
-"type": "TextBlock",  
-"text": <dynamic Tittle>,  
-"wrap": true,  
-"horizontalAlignment": "Left",  
-"spacing": "Medium",  
-"weight": "Bolder"  
-},  
-{  
-"type": "TextBlock",  
-"text": <dynamic desc>,  
-"horizontalAlignment": "Left",  
-"weight": "Bolder",  
-"wrap": true  
-},  
-{  
-"type": "TextBlock",  
-"text": <dynamic info>,  
-"horizontalAlignment": "Left",  
-"weight": "Bolder",  
-"wrap": true  
-},  
-{  
-"type": "FactSet",  
-"facts": [  
-{  
-"title": "Agent",  
-"value":  <dynamic>
-},  
-{  
-"title": "Location",  
-"value":  <dynamic>
-},  
-{  
-"title": "Rule ID",  
-"value":  <dynamic>
-},  
-{  
-"title": "Log",  
-"value":  <dynamic>
-}  
-],  
-"spacing": "Large"  
-}  
-],  
-"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",  
-"msteams": {  
-"width": "full"  
-},  
-"version": "1.0"  
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "██████████████████████████████████████████████████████████████████",
+      "color": @{body('Parse_JSON_2')?['color']},
+      "horizontalAlignment": "Center",
+      "spacing": "None",
+      "fontType": "Monospace"
+    },
+    {
+      "type": "TextBlock",
+      "text": @{body('Parse_JSON_2')?['alertTitle']},
+      "wrap": true,
+      "horizontalAlignment": "Left",
+      "spacing": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": @{body('Parse_JSON_2')?['description']},
+      "horizontalAlignment": "Left",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": @{body('Parse_JSON_2')?['info']},
+      "horizontalAlignment": "Left",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Agent",
+          "value": @{body('Parse_JSON_2')?['agentIdName']}
+        },
+        {
+          "title": "Location",
+          "value": @{body('Parse_JSON_2')?['location']}
+        },
+        {
+          "title": "Rule ID",
+          "value": @{body('Parse_JSON_2')?['ruleID']}
+        },
+        {
+          "title": "Log",
+          "value": @{body('Parse_JSON_2')?['fullLog']}
+        }
+      ],
+      "spacing": "Large"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "msteams": {
+    "width": "full"
+  },
+  "version": "1.0"
 }
 ```
 

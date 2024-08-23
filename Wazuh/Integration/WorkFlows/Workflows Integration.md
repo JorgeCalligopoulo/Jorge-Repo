@@ -42,20 +42,158 @@ the URL address has the character "&" that upon saving is transformed into  "&am
 
 Power automate:
 
+---
+
+
 - Start: When a Teams webhook request is received
 
 Who can trigger the flow?:  Anyone
 
+---
+
+Parse Json
+```json
+{
+
+"type": "object",
+
+"properties": {
+
+"alertTitle": {
+
+"type": "string"
+
+},
+
+"level": {
+
+"type": "integer"
+
+},
+
+"color": {
+
+"type": "string"
+
+},
+
+"color_hex": {
+
+"type": "string"
+
+},
+
+"agentIdName": {
+
+"type": "string"
+
+},
+
+"location": {
+
+"type": "string"
+
+},
+
+"ruleID": {
+
+"type": "string"
+
+},
+
+"description": {
+
+"type": "string"
+
+},
+
+"fullLog": {
+
+"type": "string"
+
+},
+
+"info": {
+
+"type": "string"
+
+}
+
+}
+
+}
+```
+
+---
+
+Compose
+
+```json
+{  
+"type": "AdaptiveCard",  
+"body": [  
+{  
+"type": "TextBlock",  
+"text": "██████████████████████████████████████████████████████████████████",  
+"color": <dynamic Color>,  
+"horizontalAlignment": "Center",  
+"spacing": "None",  
+"fontType": "Monospace"  
+},  
+{  
+"type": "TextBlock",  
+"text": <dynamic Tittle>,  
+"wrap": true,  
+"horizontalAlignment": "Left",  
+"spacing": "Medium",  
+"weight": "Bolder"  
+},  
+{  
+"type": "TextBlock",  
+"text": <dynamic desc>,  
+"horizontalAlignment": "Left",  
+"weight": "Bolder",  
+"wrap": true  
+},  
+{  
+"type": "TextBlock",  
+"text": <dynamic info>,  
+"horizontalAlignment": "Left",  
+"weight": "Bolder",  
+"wrap": true  
+},  
+{  
+"type": "FactSet",  
+"facts": [  
+{  
+"title": "Agent",  
+"value":  <dynamic>
+},  
+{  
+"title": "Location",  
+"value":  <dynamic>
+},  
+{  
+"title": "Rule ID",  
+"value":  <dynamic>
+},  
+{  
+"title": "Log",  
+"value":  <dynamic>
+}  
+],  
+"spacing": "Large"  
+}  
+],  
+"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",  
+"msteams": {  
+"width": "full"  
+},  
+"version": "1.0"  
+}
+```
+
+
 - Second Step: Post message in a chat or channel
 
-Post as: Flow bot
-
-Post in: Channel
-
-Team: `<Select desired Team>`
-
-Channel: `<Select desired channel>`
-
-Adaptive Card: `@{triggerBody()}`
-
-in other words chose the "body" From Start node
+adaptive card field select the output from compose

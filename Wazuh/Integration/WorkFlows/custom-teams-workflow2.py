@@ -40,7 +40,7 @@ def main(args):
     alert_file_location = args[1]
     webhook = args[3]
     webhook_file_path = args[3]
-
+    
     # Read the webhook URL from the file
     try:
         with open(webhook_file_path, 'r') as file:
@@ -92,14 +92,17 @@ def filter_msg(alert):
     return True
 
 def generate_msg(alert):
-    alertTitle = "WAZUH Alert"
+    alertTitle = "Wazuh Alert"
     level = alert['rule']['level']
     if (level <= 4):
             color = "Good"
+            color_hex = "38F202"
     elif (level >= 5 and level <= 7):
             color = "warning"
+            color_hex = "F2EB02"
     else:
             color = "attention"
+            color_hex = "F22A02"
 
     if 'agent' in alert:
       agentIdName = "({0}) - {1}".format(
@@ -113,64 +116,21 @@ def generate_msg(alert):
 
 # Initialize the Adaptive Card structure
     adaptive_card = {
-        "type": "AdaptiveCard",
-        "body": [
-            {
-                "type": "TextBlock",
-                "text": "██████████████████████████████████████████████████████████████████",
-                "color": color,
-                "horizontalAlignment": "Center",
-                "spacing": "None",
-                "fontType": "Monospace"
-            },
-            {
-                "type": "TextBlock",
-                "text": alertTitle,
-                "wrap": True,
-                "horizontalAlignment": "Left",
-                "spacing": "Medium",
-                "weight": "Bolder"
-            },
-            {
-                "type": "TextBlock",
-                "text": alert['rule']['description'] if 'description' in alert['rule'] else "N/A",
-                "horizontalAlignment": "Left",
-                "weight": "Bolder",
-                "wrap": True
-            },
-            {
-                "type": "FactSet",
-                "facts": [
-                    {
-                        "title": "Agent",
-                        "value": agentIdName
-                    },
-                    {
-                        "title": "Location",
-                        "value": alert['location']
-                    },
-                    {
-                        "title": "Rule ID",
-                        "value": "{0} _(Level {1})_".format(alert['rule']['id'], level)
-                    },
-                    {
-                        "title": "Log",
-                        "value": alert.get('full_log')
-                    }
-                ],
-                "spacing": "Large"
-            }
-        ],
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "msteams": {
-            "width": "full"
-        },
-        "version": "1.0"
+        "alertTitle": alertTitle,
+        "level": level,
+        "color": color,
+	    "color_hex": color_hex,
+        "agentIdName": agentIdName,
+        "location": alert['location'],
+        "ruleID": "{0} _(Level {1})_".format(alert['rule']['id'], level),
+        "description": alert['rule']['description'] if 'description' in alert['rule'] else "N/A",
+        "fullLog": alert.get('full_log') if 'full_log' in alert else "N/A",
+	"info": alert['rule']['info'] if 'info' in alert['rule'] else "",
     }
-
+    
     # Convert the Adaptive Card structure to a JSON string
     adaptive_card_json = json.dumps(adaptive_card, indent=2)
-
+    
     return adaptive_card_json
 
 

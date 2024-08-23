@@ -23,11 +23,9 @@
             "id": "a8a28d5ea6b20512",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
               }
             }
           }
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
+                "file": "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py"
               }
             }
           },
@@ -198,10 +196,10 @@
   },
   "active": "a8a28d5ea6b20512",
   "lastOpenFiles": [
+    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Shell scripts/GitSync.sh",
     "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
     "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
-    "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",

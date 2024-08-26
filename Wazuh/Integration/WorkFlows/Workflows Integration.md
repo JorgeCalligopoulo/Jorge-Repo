@@ -127,7 +127,7 @@ Parse Json
 ---
 
 Compose
-
+https://adaptivecards.io/designer/
 ```json
 {
   "type": "AdaptiveCard",

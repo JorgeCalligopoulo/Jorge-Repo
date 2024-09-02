@@ -171,12 +171,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,13 +189,13 @@
       "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "meld-encrypt:Create new encrypted note": false,
-      "cmdr:Obsidian Git: Pull": false,
-      "cmdr:Obsidian Git: Commit all changes": false,
       "cmdr:Obsidian Git: Push": false,
+      "cmdr:Obsidian Git: Commit all changes": false,
+      "cmdr:Obsidian Git: Pull": false,
       "code-files:Create Code File": false
     }
   },
-  "active": "a8a28d5ea6b20512",
+  "active": "2c6d426e1eb1f530",
   "lastOpenFiles": [
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",

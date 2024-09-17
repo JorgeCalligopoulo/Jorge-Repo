@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/Integration/WorkFlows/Workflows Integration.md"
+                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md"
               }
             }
           },
@@ -195,25 +195,26 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "2c6d426e1eb1f530",
+  "active": "a8a28d5ea6b20512",
   "lastOpenFiles": [
-    "Wazuh/Integration/Teams/Teams Integration.md",
+    "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml",
+    "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
+    "Wazuh/rules and decoders/Meraki",
+    "Wazuh/rules and decoders/Sophos Firewall/sophos-Firewall-wazuh-rules.xml",
+    "Wazuh/rules and decoders/Sophos Firewall/01_Custom_Sophos_Firewall.xml",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
+    "Wazuh/rules and decoders/Sophos Central",
+    "Wazuh/rules and decoders/Sophos Firewall",
+    "Wazuh/rules and decoders",
+    "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
     "Shell scripts/GitSync.sh",
-    "Wazuh/Custom_Rules/sophos-Firewall-wazuh-rules.xml",
-    "Wazuh/Custom_Rules/sophos-central-wazuh-rules.xml",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
-    "Wazuh/Integration/Teams/custom-teams.py",
     "Misp/Misp-Certificate.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
     "Wazuh/rootcheck noise.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
-    "Wazuh/Integration/WorkFlows",
-    "Wazuh/Integration/Sophos-Central-SIEM-Integration",
-    "Wazuh/Custom_Rules",
-    "Wazuh/Custom_Decoders/01_Custom_Sophos_Firewall.xml",
     "README.md",
     "Attachments/Topology.png",
     "Wazuh/Integration/Misp/Misp Integration.md",
@@ -234,7 +235,6 @@
     "LAB/Untitled.canvas",
     "Auxilio TCC.md",
     "Links Cursos.md",
-    "Magic itens.md",
     "Pergunta/Untitled.canvas",
     "Attachments/Pasted image 20230520224539.png",
     "Attachments/Pasted image 20230511103528.png",

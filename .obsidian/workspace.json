@@ -23,11 +23,9 @@
             "id": "a8a28d5ea6b20512",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
-                "mode": "source",
-                "source": false
+                "file": "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml"
               }
             }
           }
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
+                "file": "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
+                "file": "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md"
+                "file": "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml"
               }
             }
           },
@@ -197,11 +195,14 @@
   },
   "active": "a8a28d5ea6b20512",
   "lastOpenFiles": [
+    "Wazuh/rules and decoders/Meraki/Meraki.md",
+    "Wazuh/rules and decoders/Huawei/Huawei.md",
     "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml",
     "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
-    "Wazuh/rules and decoders/Meraki",
+    "Wazuh/rules and decoders/Huawei",
     "Wazuh/rules and decoders/Sophos Firewall/sophos-Firewall-wazuh-rules.xml",
     "Wazuh/rules and decoders/Sophos Firewall/01_Custom_Sophos_Firewall.xml",
+    "Wazuh/rules and decoders/Meraki",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/rules and decoders/Sophos Central",
     "Wazuh/rules and decoders/Sophos Firewall",
@@ -209,7 +210,6 @@
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
     "Shell scripts/GitSync.sh",
-    "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Misp/Misp-Certificate.md",
     "OPNsense/Oracle cloud.md",
     "OPNsense/Logic Topology.md",
@@ -233,8 +233,6 @@
     "Pergunta/Distribuição de poisson.md",
     "Pergunta/Distribuição de Poisson.md",
     "LAB/Untitled.canvas",
-    "Auxilio TCC.md",
-    "Links Cursos.md",
     "Pergunta/Untitled.canvas",
     "Attachments/Pasted image 20230520224539.png",
     "Attachments/Pasted image 20230511103528.png",

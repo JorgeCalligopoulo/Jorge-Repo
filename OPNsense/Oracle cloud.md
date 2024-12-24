@@ -51,6 +51,12 @@ xz -dc FreeBSD-13.1-RELEASE-amd64.raw.xz | sudo dd of=/dev/sda bs=1M conv=fdatas
 ```
 
 ```
+wget https://download.freebsd.org/ftp/releases/VM-IMAGES/13.3-RELEASE/amd64/Latest/FreeBSD-13.3-RELEASE-amd64.raw.xz 
+
+xz -dc FreeBSD-13.3-RELEASE-amd64.raw.xz | sudo dd of=/dev/sda bs=1M conv=fdatasync
+```
+
+```
 wget https://download.freebsd.org/ftp/releases/VM-IMAGES/14.2-RELEASE/amd64/Latest/FreeBSD-14.2-RELEASE-amd64.raw.xz 
 
 xz -dc FreeBSD-14.2-RELEASE-amd64.raw.xz | sudo dd of=/dev/sda bs=1M conv=fdatasync

@@ -71,6 +71,7 @@ Code: [Select]
 # fetch https://raw.githubusercontent.com/opnsense/update/master/src/bootstrap/opnsense-bootstrap.sh.in
 
 # sh ./opnsense-bootstrap.sh.in -r 23.1
+# sh ./opnsense-bootstrap.sh.in -r 24.7
 ```
 
   

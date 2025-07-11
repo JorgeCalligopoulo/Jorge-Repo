@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misp/Misp-Certificate.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misp-Certificate"
+              "title": "README"
             }
           },
           {
@@ -235,18 +235,20 @@
   },
   "active": "d1f98fb52207182c",
   "lastOpenFiles": [
-    "OPNsense/Oracle cloud.md",
-    "OPNsense/Logic Topology.md",
-    "Attachments/Topology.png",
-    "Shell scripts/GitSync.sh",
     "Wazuh/rootcheck noise.md",
-    "Wazuh/rules and decoders/Sophos Firewall/sophos-Firewall-wazuh-rules.xml",
-    "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
-    "Wazuh/rules and decoders/Sophos Firewall/01_Custom_Sophos_Firewall.xml",
+    "Attachments/Topology.png",
+    "OPNsense/Logic Topology.md",
+    "OPNsense/Oracle cloud.md",
+    "Shell scripts/GitSync.sh",
+    "Wazuh/rules and decoders/Huawei/Huawei.md",
+    "Wazuh/rules and decoders/Meraki/Meraki.md",
     "Wazuh/rules and decoders/Sophos Central/sophos-central-wazuh-rules.xml",
+    "Wazuh/rules and decoders/Sophos Firewall/01_Custom_Sophos_Firewall.xml",
+    "Wazuh/rules and decoders/Sophos Firewall/Sophos Firewall.md",
+    "Wazuh/rules and decoders/Sophos Firewall/sophos-Firewall-wazuh-rules.xml",
+    "Misp/Misp-Certificate.md",
     "Wazuh/Integration/Sophos-Central-SIEM-Integration/Sophos-Central-SIEM-Integration.md",
     "Wazuh/Integration/Misp/custom-misp.py",
-    "Wazuh/rules and decoders/Meraki/Meraki.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow2.py",
     "Wazuh/Integration/Teams/Teams Integration.md",
     "Wazuh/Integration/Teams/custom-teams.py",
@@ -255,9 +257,7 @@
     "README.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
-    "Wazuh/rules and decoders/Huawei/Huawei.md",
     "Wazuh/rules and decoders/Sophos Firewall",
-    "Misp/Misp-Certificate.md",
     "Wazuh/Integration/Discord/Discord Integration.md",
     "OPNsense/Test Canvas.canvas",
     "Wazuh/Discord Integration.md",

@@ -23,14 +23,12 @@
             "id": "d1f98fb52207182c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "code-editor",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Wazuh/Integration/Teams/custom-teams.py"
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "custom-teams.py"
             }
           },
           {
@@ -80,8 +78,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -217,6 +215,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -227,14 +226,12 @@
       "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "meld-encrypt:Create new encrypted note": false,
-      "cmdr:Obsidian Git: Pull": false,
-      "cmdr:Obsidian Git: Commit all changes": false,
-      "cmdr:Obsidian Git: Push": false,
       "code-files:Create Code File": false
     }
   },
   "active": "d1f98fb52207182c",
   "lastOpenFiles": [
+    "README.md",
     "Wazuh/rootcheck noise.md",
     "Attachments/Topology.png",
     "OPNsense/Logic Topology.md",
@@ -254,7 +251,6 @@
     "Wazuh/Integration/Teams/custom-teams.py",
     "Wazuh/Integration/Misp/Misp Integration.md",
     "Wazuh/Integration/Misp/custom-misp-ip.py",
-    "README.md",
     "Wazuh/Integration/WorkFlows/custom-teams-workflow.py.py",
     "Wazuh/Integration/WorkFlows/Workflows Integration.md",
     "Wazuh/rules and decoders/Sophos Firewall",
